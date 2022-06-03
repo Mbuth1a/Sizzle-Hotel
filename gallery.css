@@ -1,0 +1,101 @@
+body{
+    background-color: orange;
+    font-size: 40px;
+    font-style: italic;
+    padding: 20px 10px 20px 10px;
+    border: 30px;
+    border-radius: 30%;
+    display: grid;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+    gap: 2px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    width: 80%;
+    grid-area: 
+    "nav nav nav nav"
+    "Image1 Image2 Image3 Image4"
+    "Image5 Image6 Image7 Image8"
+    "Image9 Image10 Image11 Image2"
+    
+    ;
+    grid-gap: 5px;
+
+
+}
+h1{
+    color: aquamarine;
+    font-style: normal;
+    float: left;
+
+
+}
+h1:hover{
+    transform-style: preserve-3d;
+    transition-property: all;
+    transition: ease-in-out 2s;
+
+}
+#navbar{
+    background-color: beige;
+    grid-area: navbar;
+    border: 10px;
+}
+#image1{
+    background-color: rgb(221, 221, 12);
+    grid-area: image1;
+    
+
+}
+#image2{
+    background-color: rgb(0, 177, 231);
+    grid-area: image2;
+}
+#image3{
+    background-color: rgba(62, 1, 97, 0.815);
+    grid-area: image3;
+}
+#image4{
+    background-color: rgb(0, 48, 28);
+    grid-area: image4;
+}
+#image5{
+    background-color: rgb(255, 60, 0);
+    grid-area: image5;
+}
+#image6{
+    background-color: rgb(29, 21, 21);
+    grid-area: image6;
+}
+#image7{
+    background-color: rgba(19, 226, 112, 0.418);
+    grid-area: image7;
+}
+#image8{
+    background-color: rgba(13, 233, 185, 0.705);
+    grid-area: image8;
+}
+#image9{
+    background-color: rgb(189, 18, 137);
+    grid-area: image9;
+}
+#image10{
+    background-color: rgb(57, 75, 241);
+    grid-area: image10;
+}
+#image11{
+    background-color: rgb(114, 9, 9);
+    grid-area: image11;
+}
+
+
+#image12{
+    background-color: rgb(114, 9, 9);
+    grid-area: image12;
+}
+
